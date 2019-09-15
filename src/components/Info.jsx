@@ -6,7 +6,7 @@ export const Info = () => {
             <div className='container'>
                <div className='info__inner'>
 
-                   <div className='block-title'>
+                   <div className='block-title block-title--info'>
                        Lorem ipsum dolor sit amet,
                        consectetur adipisicing elit. Asperiores, quas.
                    </div>
