@@ -11,9 +11,9 @@ export const Contacts = () => {
                     </div>
                     <div className='contacts__form'>
                         <form>
-                            <input className='form__input' />
-                            <input className='form__input' />
-                            <textarea className='form__input contacts__textarea' />
+                            <input placeholder='Your name' className='form__input' />
+                            <input placeholder='Your email' className='form__input' />
+                            <textarea placeholder='Your message' className='form__input contacts__textarea' />
                             <button className='btn btn--from' type='submit'>Send</button>
                         </form>
                     </div>

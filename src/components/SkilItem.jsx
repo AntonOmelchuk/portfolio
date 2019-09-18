@@ -1,15 +1,14 @@
 import React from "react";
 
-export const SkillItem = () => {
+export const SkillItem = ({icon, title, description}) => {
     return (
         <div className='skills__item'>
             <div className='skills__icon'>
-                <img />
+                <img src={icon} />
             </div>
-            <div className='skills__title'>title</div>
+            <div className='skills__title'>{title}</div>
             <div className='skills__description'>
-                Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Ex, laboriosam!
+                {description}
             </div>
         </div>
     )
