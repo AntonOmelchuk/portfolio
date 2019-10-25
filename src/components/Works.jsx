@@ -4,6 +4,7 @@ import socialNetwork from '../images/works/socialNetwork.jpg';
 import todo from '../images/works/todo.jpg';
 import bookstore from '../images/works/bookstore.jpg';
 import musicArt from '../images/works/musicArt.jpg';
+import contactManger from '../images/works/contactManager.png';
 
 export const Works = () => {
 
@@ -31,6 +32,12 @@ export const Works = () => {
             title: 'MusicArts',
             img: musicArt,
             link: 'https://antonomelchuk.github.io/MusicArts/index.html'
+        },
+        {
+            id: 5,
+            title: 'ContactManager',
+            img: contactManger,
+            link: 'https://contact-manager-ua.herokuapp.com/'
         }
     ];
 
