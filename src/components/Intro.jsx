@@ -1,5 +1,6 @@
 import React from 'react';
 import photo from '../images/photo.jpg';
+import Tilt from 'react-tilt'
 
 export const Intro = () => {
     return (
@@ -11,7 +12,11 @@ export const Intro = () => {
                         <div className='introduce'>I am <span className='name'>Anton Omelchuk</span></div>
                         <div className='profession'><h1>Junior React Developer</h1></div>
                     </div>
-                    <div className='photo'><img src={photo}/></div>
+                    <Tilt className="Tilt">
+                        <div className="Tilt-inner">
+                            <div className='photo'><img src={photo} alt='photo' /></div>
+                        </div>
+                    </Tilt>
                 </div>
 
             </div>

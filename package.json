@@ -2,12 +2,13 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://antonomelchuk.github.io/portfolio",
+  "homepage": "https://antonomelchuk.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "react-tilt": "^0.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -4,32 +4,39 @@ import react from '../images/icons/React.png';
 import js from '../images/icons/js.png';
 import html from '../images/icons/html5.png';
 import css from '../images/icons/css.png';
+import redux from '../images/icons/redux.png';
 
 export const Skills = () => {
 
     let skills = [
         {
             id: 1,
-            icon: react,
-            title: 'React',
-            description: 'Some description'
-        },
-        {
-            id: 2,
-            icon: js,
-            title: 'JavaScript',
-            description: 'Some description'
-        },
-        {
-            id: 3,
             icon: html,
             title: 'HTML5',
             description: 'Some description'
         },
         {
-            id: 4,
+            id: 2,
             icon: css,
-            title: 'CCS3',
+            title: 'CSS3',
+            description: 'Some description'
+        },
+        {
+            id: 3,
+            icon: js,
+            title: 'JavaScript',
+            description: 'Some description'
+        },
+        {
+            id: 4,
+            icon: react,
+            title: 'React',
+            description: 'Some description'
+        },
+        {
+            id: 5,
+            icon: redux,
+            title: 'Redux',
             description: 'Some description'
         }
     ];

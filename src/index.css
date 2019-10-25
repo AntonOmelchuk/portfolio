@@ -55,7 +55,7 @@ textarea {
 .container {
     width: 100%;
     max-width: 1170px;
-    /*padding: 10px 15px;*/
+    padding: 10px 0;
     margin: 0 auto;
 }
 
@@ -72,6 +72,7 @@ textarea {
     font-weight: 700;
 
     margin-bottom: 40px;
+    padding-top: 60px;
 }
 
 
@@ -93,7 +94,6 @@ textarea {
     cursor: pointer;
     opacity: .8;
 }
-
 
 /* --- Header --- */
 
@@ -214,7 +214,7 @@ textarea {
 
 .skills {
     background-color: #393939;
-    padding-top: 90px;
+    padding-top: 60px;
 }
 
 .skills__inner {
@@ -375,6 +375,7 @@ textarea {
 
     margin-bottom: 10px;
     padding: 3px 7px;
+    background-color: #ccc;
 }
 
 .form__input::placeholder {
@@ -387,8 +388,59 @@ textarea {
     resize: none;
 }
 
+@keyframes focus {
+    from {
+        border: 3px solid rgb(255, 127, 80)
+    }
+    25% {
+        border: 3px solid rgba(255, 127, 80, .5)
+    }
+    50% {
+        border: 3px solid rgb(255, 127, 80)
+    }
+    75% {
+        border: 3px solid rgba(255, 127, 80, .5)
+    }
+    to {
+        border: 3px solid rgb(255, 127, 80)
+    }
+}
+
+.form__input:focus {
+    animation: focus 1.5s infinite linear;
+}
+
 .btn--from {
-    background-color: azure;
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.btn--from:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 10px;
+    background-color: #ff7f50;
+
+    transition: all .2s ease;
+}
+
+.btn--from:hover {
+    opacity: 1;
+}
+
+.btn--from:hover.btn--from:after {
+    height: 25px;
+    width: 105%;
+    transform: translateX(-2.5%);
 }
 
 /* --- Footer --- */
@@ -405,12 +457,37 @@ textarea {
     text-align: center;
 }
 
-.someline {
-    width: 80%;
-    height: 45px;
-    margin: 10px auto;
+.social__menu {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px auto;
+}
 
-    background-color: darkgrey;
+.menu__item {
+    display: block;
+    width: 45px;
+    height: 45px;
+}
+
+.menu__item:first-child {
+    width: 40px;
+    height: 40px;
+}
+
+.menu__item img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu__item:hover {
+    opacity: .8;
+}
+
+.author {
+    font-size: 21px;
+    font-weight: 600;
 }
 
 /* --- Media --- */

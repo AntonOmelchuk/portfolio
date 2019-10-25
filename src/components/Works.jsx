@@ -28,7 +28,7 @@ export const Works = () => {
         },
         {
             id: 4,
-            title: 'MusicArt',
+            title: 'MusicArts',
             img: musicArt,
             link: 'https://antonomelchuk.github.io/MusicArts/index.html'
         }
