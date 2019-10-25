@@ -109,8 +109,8 @@ textarea {
     height: 60px;
     width: 100%;
     padding-top: 12px;
-
-    background-color: #262827;
+    background: linear-gradient(to left, rgba(43, 43, 43, 0.94), #040404);
+    /*background-color: #484a49;*/
 }
 
 .header__inner {
@@ -135,8 +135,7 @@ textarea {
     align-items: center;
     min-height: calc(100vh - 60px);
     position: relative;
-
-    background-color: #484a49;
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 .intro__inner {
@@ -287,7 +286,7 @@ textarea {
     background-color: #393939;
 }
 
-.work__image {
+.work__video {
     position: relative;
     height: 250px;
     background-color: azure;
@@ -299,11 +298,11 @@ textarea {
     transition: all .3s ease;
 }
 
-.work__image:hover .btn--work {
+.work__video:hover .btn--work {
     opacity: 1;
 }
 
-.work__image:hover .work__screen {
+.work__video:hover .work__screen {
     opacity: .5;
 }
 
@@ -327,6 +326,7 @@ textarea {
 }
 
 .work__title {
+    padding-top: 12px;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
