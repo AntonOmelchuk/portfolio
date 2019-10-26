@@ -39,19 +39,19 @@ export const Works = () => {
             id: 5,
             title: 'ContactManager',
             video: contactManger,
-            link: 'https://contact-manager-ua.herokuapp.com/'
+            link: 'https://contact-manager-ua.herokuapp.com'
         },
         {
             id: 6,
             title: 'Tic Tac Toe',
             video: ticTacToe,
-            link: 'https://antonomelchuk.github.io/Tic_Tac_Toe/'
+            link: 'https://antonomelchuk.github.io/Tic_Tac_Toe'
         },
         {
             id: 7,
             title: 'GitHub Finder',
             video: githubFinder,
-            link: 'https://github-finder-app-ua.herokuapp.com//'
+            link: 'https://github-finder-app-ua.herokuapp.com'
         }
     ];
 
