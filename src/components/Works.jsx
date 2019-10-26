@@ -6,6 +6,7 @@ import bookstore from '../images/works/bookStore.mp4';
 import musicArt from '../images/works/musicArts.mp4';
 import contactManger from '../images/works/contactManager.mp4';
 import ticTacToe from '../images/works/ticTacToe.mp4';
+import githubFinder from '../images/works/gitfinder.mp4';
 
 export const Works = () => {
 
@@ -45,6 +46,12 @@ export const Works = () => {
             title: 'Tic Tac Toe',
             video: ticTacToe,
             link: 'https://antonomelchuk.github.io/Tic_Tac_Toe/'
+        },
+        {
+            id: 7,
+            title: 'GitHub Finder',
+            video: githubFinder,
+            link: 'https://github-finder-app-ua.herokuapp.com//'
         }
     ];
 
