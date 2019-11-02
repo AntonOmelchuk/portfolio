@@ -55,7 +55,6 @@ textarea {
 .particles {
     position: absolute;
     right: 0;
-    right: 0;
     bottom: 0;
     left: 0;
 }
@@ -110,7 +109,6 @@ textarea {
     width: 100%;
     padding-top: 12px;
     background: linear-gradient(to left, rgba(43, 43, 43, 0.94), #040404);
-    /*background-color: #484a49;*/
 }
 
 .header__inner {
@@ -121,10 +119,13 @@ textarea {
 .header__link {
     display: inline-block;
     margin: 0 15px;
+    position: relative;
+    z-index: 10;
 }
 
 .header__link:hover {
     opacity: .8;
+    cursor: pointer;
 }
 
 /* --- Intro --- */

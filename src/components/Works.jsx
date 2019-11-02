@@ -57,7 +57,7 @@ export const Works = () => {
 
 
     return (
-        <div className='works block'>
+        <div className='works block' id='works'>
             <div className='container'>
                 <div className='block-title'>My works</div>
                 <div className='works__inner'>

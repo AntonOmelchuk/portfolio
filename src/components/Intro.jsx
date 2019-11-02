@@ -76,7 +76,7 @@ const params = {
 
 export const Intro = () => {
     return (
-        <div className='intro block'>
+        <div className='intro block' id='intro'>
             <Particles className='particles' params={params} />
             <div className='container'>
 

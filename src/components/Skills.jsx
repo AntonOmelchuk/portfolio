@@ -42,7 +42,7 @@ export const Skills = () => {
     ];
 
     return (
-        <div className='skills block'>
+        <div className='skills block' id='skills'>
             <div className='container'>
                 <div className='block-title'>My skills</div>
                 <div className='skills__inner'>

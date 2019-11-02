@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Contacts = () => {
     return (
-        <div className='contacts'>
+        <div className='contacts' id='contact'>
             <div className='container'>
                 <div className='contacts__inner'>
 

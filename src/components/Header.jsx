@@ -1,15 +1,35 @@
 import React from 'react'
+import {Link} from 'react-scroll';
 import '../index.css';
 
 export const Header = () => {
+
+    const handleSetActive = () => {};
+
     return (
         <div className='header'>
             <div className='container header__inner'>
                 <nav className='header__nav'>
-                    <a href='#' className='header__link'>Main</a>
-                    <a href='#' className='header__link'>Skills</a>
-                    <a href='#' className='header__link'>Works</a>
-                    <a href='#' className='header__link'>Contacts</a>
+                    <div className="header__link">
+                        <Link activeClass="active header__link" to="intro" spy={true} smooth={true} offset={50} duration={500} onSetActive={handleSetActive}>
+                            Intro
+                        </Link>
+                    </div>
+                    <div className="header__link">
+                        <Link activeClass="active header__link" to="skills" spy={true} smooth={true} offset={50} duration={500} onSetActive={handleSetActive}>
+                            Skills
+                        </Link>
+                    </div>
+                    <div className="header__link">
+                        <Link activeClass="active header__link" to="works" spy={true} smooth={true} offset={50} duration={500} onSetActive={handleSetActive}>
+                            Works
+                        </Link>
+                    </div>
+                    <div className="header__link">
+                        <Link activeClass="active header__link" to="contacts" spy={true} smooth={true} offset={50} duration={500} onSetActive={handleSetActive}>
+                            Contacts
+                        </Link>
+                    </div>
                 </nav>
             </div>
         </div>

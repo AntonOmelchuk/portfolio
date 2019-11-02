@@ -8,9 +8,10 @@ import {Info} from "./components/Info";
 import {Contacts} from "./components/Contacts";
 import {Footer} from "./components/Footer";
 
-function App() {
+const App = () => {
+
     return (
-        <div>
+        <>
             <Header />
             <Intro />
             <Skills />
@@ -18,7 +19,7 @@ function App() {
             <Info />
             <Contacts />
             <Footer />
-        </div>
+        </>
 
     )
 }
