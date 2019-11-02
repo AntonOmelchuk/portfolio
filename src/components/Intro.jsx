@@ -72,7 +72,7 @@ const params = {
             }
         }
     }
-}
+};
 
 export const Intro = () => {
     return (

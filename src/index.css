@@ -108,7 +108,13 @@ textarea {
     height: 60px;
     width: 100%;
     padding-top: 12px;
-    background: linear-gradient(to left, rgba(43, 43, 43, 0.94), #040404);
+    background: linear-gradient(to left, rgba(43, 43, 43, .94), #040404);
+}
+
+.fixed {
+    position: fixed;
+    z-index: 100;
+    background: linear-gradient(to left, rgba(43, 43, 43, .54), #040404);
 }
 
 .header__inner {
