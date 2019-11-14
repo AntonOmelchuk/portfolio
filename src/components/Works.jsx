@@ -7,6 +7,7 @@ import musicArt from '../images/works/musicArts.mp4';
 import contactManger from '../images/works/contactManager.mp4';
 import ticTacToe from '../images/works/ticTacToe.mp4';
 import githubFinder from '../images/works/gitfinder.mp4';
+import game from '../images/works/game.mp4';
 
 export const Works = () => {
 
@@ -52,6 +53,12 @@ export const Works = () => {
             title: 'GitHub Finder',
             video: githubFinder,
             link: 'https://github-finder-app-ua.herokuapp.com'
+        },
+        {
+            id: 8,
+            title: 'React Game',
+            video: game,
+            link: 'https://antonomelchuk.github.io/Simple_React_Game'
         }
     ];
 

@@ -83,7 +83,7 @@ export const Intro = () => {
                 <div className='intro__inner'>
                     <div className='about'>
                         <div className='introduce'>I am <span className='name'>Anton Omelchuk</span></div>
-                        <div className='profession'><h1>Junior React Developer</h1></div>
+                        <div className='profession'><h1>React Developer</h1></div>
                     </div>
                     <Tilt className="Tilt">
                         <div className="Tilt-inner">

@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import github from "../images/social-icons/gh.png";
 import facebook from "../images/social-icons/fb.png";
 import instagram from "../images/social-icons/inst.png";
 import linkedin from "../images/social-icons/in.png";
 
 export const Footer = () => {
+
+    const [isShow, setIsShow] = useState(false);
+
+    const toggleIcons = () => {
+
+    }
+
     return (
         <div className='footer'>
             <div className='container'>
@@ -12,7 +19,13 @@ export const Footer = () => {
                 <div className='footer__inner'>
                     <div className='author'>Omelchuk Anton</div>
                     <div className="social__menu">
-                        <a href="https://github.com/AntonOmelchuk" target="_blank" className="menu__item">
+                        <a href="#" target="_blank" className="menu__item main__menu__item" onClick={toggleIcons}>
+                            <i className="fas fa-share-alt" />
+                        </a>
+                        <a href="https://github.com/AntonOmelchuk" target="_blank" className="menu__item"
+                        style={{
+                            right: '10px'
+                        }}>
                             <img src={github} alt='github-icon' />
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=100008345618380&ref=bookmarks" className="menu__item" target="_blank">
