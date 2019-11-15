@@ -5,6 +5,7 @@ import js from '../images/icons/js.png';
 import html from '../images/icons/html5.png';
 import css from '../images/icons/css.png';
 import redux from '../images/icons/redux.png';
+import ts from '../images/icons/ts.png';
 
 export const Skills = () => {
 
@@ -29,12 +30,18 @@ export const Skills = () => {
         },
         {
             id: 4,
+            icon: ts,
+            title: 'TypeScript',
+            description: 'Some description'
+        },
+        {
+            id: 5,
             icon: react,
             title: 'React',
             description: 'Some description'
         },
         {
-            id: 5,
+            id: 6,
             icon: redux,
             title: 'Redux',
             description: 'Some description'
