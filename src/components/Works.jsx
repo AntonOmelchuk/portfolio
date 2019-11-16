@@ -16,49 +16,57 @@ export const Works = () => {
             id: 1,
             title: 'Social Network',
             video: socialNetwork,
-            link: 'https://antonomelchuk.github.io/Social_Network/#/profile'
+            link: 'https://antonomelchuk.github.io/Social_Network/#/profile',
+            code: 'https://github.com/AntonOmelchuk/Social_Network'
         },
         {
             id: 2,
             title: 'ToDo List',
             video: todo,
-            link: 'https://reacttodosua.herokuapp.com'
+            link: 'https://reacttodosua.herokuapp.com',
+            code: 'https://github.com/AntonOmelchuk/React_ToDo'
         },
         {
             id: 3,
             title: 'Bookstore',
             video: bookstore,
-            link: 'https://react-bookstore-ua.herokuapp.com'
+            link: 'https://react-bookstore-ua.herokuapp.com',
+            code: 'https://github.com/AntonOmelchuk/Bookstore'
         },
         {
             id: 4,
             title: 'MusicArts',
             video: musicArt,
-            link: 'https://antonomelchuk.github.io/MusicArts/index.html'
+            link: 'https://antonomelchuk.github.io/MusicArts/index.html',
+            code: 'https://github.com/AntonOmelchuk/MusicArts'
         },
         {
             id: 5,
             title: 'ContactManager',
             video: contactManger,
-            link: 'https://contact-manager-ua.herokuapp.com'
+            link: 'https://contact-manager-ua.herokuapp.com',
+            code: 'https://github.com/AntonOmelchuk/Contact-Manager'
         },
         {
             id: 6,
             title: 'Tic Tac Toe',
             video: ticTacToe,
-            link: 'https://antonomelchuk.github.io/Tic_Tac_Toe'
+            link: 'https://antonomelchuk.github.io/Tic_Tac_Toe',
+            code: 'https://github.com/AntonOmelchuk/Tic_Tac_Toe'
         },
         {
             id: 7,
             title: 'GitHub Finder',
             video: githubFinder,
-            link: 'https://github-finder-app-ua.herokuapp.com'
+            link: 'https://github-finder-app-ua.herokuapp.com',
+            code: 'https://github.com/AntonOmelchuk/GitHubFinder'
         },
         {
             id: 8,
             title: 'React Game',
             video: game,
-            link: 'https://antonomelchuk.github.io/Simple_React_Game'
+            link: 'https://antonomelchuk.github.io/Simple_React_Game',
+            code: 'https://github.com/AntonOmelchuk/Simple_React_Game'
         }
     ];
 
@@ -70,7 +78,7 @@ export const Works = () => {
                 <div className='works__inner'>
                     {works.map(work => {
                         return <WorkItem key={work.id} title={work.title} img={work.img} link={work.link}
-                                         video={work.video}/>
+                                         video={work.video} code={work.code} />
                     })}
                 </div>
             </div>
