@@ -11,6 +11,8 @@
   },
   "rules": {
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
-    "jsx-quotes": ["error", "prefer-single"]
+    "jsx-quotes": ["error", "prefer-single"],
+    "react/jsx-no-target-blank": "off",
+    "no-console": "error"
   }
 }
