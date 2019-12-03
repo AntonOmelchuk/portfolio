@@ -13,6 +13,8 @@
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
     "jsx-quotes": ["error", "prefer-single"],
     "react/jsx-no-target-blank": "off",
-    "no-console": "error"
+    "no-console": "error",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/img-redundant-alt": "off"
   }
 }
