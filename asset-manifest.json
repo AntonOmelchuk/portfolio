@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c2557fa0.chunk.css",
-    "main.js": "/portfolio/static/js/main.b584e8ab.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b584e8ab.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.98dbed62.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.98dbed62.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.d52ae8c2.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.d52ae8c2.js.map",
     "static/js/2.0b6deebe.chunk.js": "/portfolio/static/js/2.0b6deebe.chunk.js",
     "static/js/2.0b6deebe.chunk.js.map": "/portfolio/static/js/2.0b6deebe.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.149819e0a8a332f1c1da4183870942fa.js": "/portfolio/precache-manifest.149819e0a8a332f1c1da4183870942fa.js",
+    "precache-manifest.601e7bd3c78c73fb3ef787732c191ce9.js": "/portfolio/precache-manifest.601e7bd3c78c73fb3ef787732c191ce9.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.c2557fa0.chunk.css.map": "/portfolio/static/css/main.c2557fa0.chunk.css.map",
     "static/media/React.png": "/portfolio/static/media/React.47ce6e77.png",
@@ -19,9 +19,9 @@
     "static/media/gitfinder.mp4": "/portfolio/static/media/gitfinder.dc689da3.mp4",
     "static/media/html5.png": "/portfolio/static/media/html5.2ea01c0e.png",
     "static/media/musicArts.mp4": "/portfolio/static/media/musicArts.300c11bd.mp4",
+    "static/media/network.mp4": "/portfolio/static/media/network.2aa7e852.mp4",
     "static/media/photo.jpg": "/portfolio/static/media/photo.75440f12.jpg",
     "static/media/redux.png": "/portfolio/static/media/redux.62cc7d7a.png",
-    "static/media/socialNetwork.mp4": "/portfolio/static/media/socialNetwork.0486d868.mp4",
     "static/media/ticTacToe.mp4": "/portfolio/static/media/ticTacToe.4738a20e.mp4",
     "static/media/todo.mp4": "/portfolio/static/media/todo.bb2627da.mp4"
   }
