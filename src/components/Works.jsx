@@ -1,6 +1,6 @@
 import React from 'react';
 import { WorkItem } from './WorkItem';
-import socialNetwork from '../images/works/socialNetwork.mp4';
+import network from '../images/works/network.mp4';
 import todo from '../images/works/todo.mp4';
 import bookstore from '../images/works/bookStore.mp4';
 import musicArt from '../images/works/musicArts.mp4';
@@ -14,9 +14,9 @@ export const Works = () => {
     {
       id: 1,
       title: 'Social Network',
-      video: socialNetwork,
-      link: 'https://antonomelchuk.github.io/Social_Network/#/profile',
-      code: 'https://github.com/AntonOmelchuk/Social_Network'
+      video: network,
+      link: 'https://antonomelchuk.github.io/React_Network_v2/',
+      code: 'https://github.com/AntonOmelchuk/React_Network_v2'
     },
     {
       id: 2,
