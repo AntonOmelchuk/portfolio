@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.abb0e89e.chunk.css",
-    "main.js": "/portfolio/static/js/main.4ddf3ae0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4ddf3ae0.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.fe6e543c.chunk.css",
+    "main.js": "/portfolio/static/js/main.2eca1f22.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2eca1f22.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.d52ae8c2.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.d52ae8c2.js.map",
     "static/js/2.0b6deebe.chunk.js": "/portfolio/static/js/2.0b6deebe.chunk.js",
     "static/js/2.0b6deebe.chunk.js.map": "/portfolio/static/js/2.0b6deebe.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.080c3f7242d2bbae6da658987fafc16d.js": "/portfolio/precache-manifest.080c3f7242d2bbae6da658987fafc16d.js",
+    "precache-manifest.1001c1935019eccad202eb839b1765d0.js": "/portfolio/precache-manifest.1001c1935019eccad202eb839b1765d0.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.abb0e89e.chunk.css.map": "/portfolio/static/css/main.abb0e89e.chunk.css.map",
+    "static/css/main.fe6e543c.chunk.css.map": "/portfolio/static/css/main.fe6e543c.chunk.css.map",
     "static/media/React.png": "/portfolio/static/media/React.47ce6e77.png",
     "static/media/bookStore.webm": "/portfolio/static/media/bookStore.77432243.webm",
+    "static/media/clothingShop.webm": "/portfolio/static/media/clothingShop.2e1f29c5.webm",
     "static/media/contactManager.webm": "/portfolio/static/media/contactManager.67a609c7.webm",
     "static/media/css.png": "/portfolio/static/media/css.9fe7584b.png",
     "static/media/game.webm": "/portfolio/static/media/game.9d919e7b.webm",
@@ -22,7 +23,6 @@
     "static/media/network.webm": "/portfolio/static/media/network.af28d516.webm",
     "static/media/photo.jpg": "/portfolio/static/media/photo.75440f12.jpg",
     "static/media/redux.png": "/portfolio/static/media/redux.62cc7d7a.png",
-    "static/media/ticTacToe.webm": "/portfolio/static/media/ticTacToe.820e44d9.webm",
     "static/media/todo.webm": "/portfolio/static/media/todo.47b68a3b.webm"
   }
 }
