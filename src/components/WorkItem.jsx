@@ -1,7 +1,7 @@
 import React from 'react';
 import Slide from 'react-reveal/Slide';
 
-export const WorkItem = ({ link, title, video, code, id }) => {
+export const WorkItem = ({ link, title, video, code, id, description }) => {
   if (id === 1 || id === 2 || id === 5 || id === 6) {
     return (
       <Slide right>
@@ -25,10 +25,7 @@ export const WorkItem = ({ link, title, video, code, id }) => {
             </div>
           </div>
           <div className='work__title'>{title}</div>
-          <div className='work__description'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
-            enim.
-          </div>
+          <div className='work__description'>{description}</div>
         </div>
       </Slide>
     );
@@ -55,10 +52,7 @@ export const WorkItem = ({ link, title, video, code, id }) => {
             </div>
           </div>
           <div className='work__title'>{title}</div>
-          <div className='work__description'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
-            enim.
-          </div>
+          <div className='work__description'>{description}</div>
         </div>
       </Slide>
     );

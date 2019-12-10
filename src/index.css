@@ -248,7 +248,7 @@ element {
 .skills__item {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 
   min-width: 28%;
@@ -347,10 +347,16 @@ element {
 
 .work__title {
   padding-top: 12px;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  font-family: "Josefin Sans", sans-serif;
+}
+
+.work__description {
+  padding-top: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 /* --- Contacts --- */

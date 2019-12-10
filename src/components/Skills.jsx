@@ -13,37 +13,37 @@ export const Skills = () => {
       id: 1,
       icon: html,
       title: 'HTML5',
-      description: 'Some description'
+      description: ''
     },
     {
       id: 2,
       icon: css,
       title: 'CSS3',
-      description: 'Some description'
+      description: ''
     },
     {
       id: 3,
       icon: js,
       title: 'JavaScript',
-      description: 'Some description'
+      description: ''
     },
     {
       id: 4,
       icon: ts,
       title: 'TypeScript',
-      description: 'Some description'
+      description: ''
     },
     {
       id: 5,
       icon: react,
       title: 'React',
-      description: 'Some description'
+      description: ''
     },
     {
       id: 6,
       icon: redux,
       title: 'Redux',
-      description: 'Some description'
+      description: ''
     }
   ];
 
