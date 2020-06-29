@@ -36,7 +36,7 @@ export const Works = () => {
       video: pizza,
       link: 'https://rockitpizza-f5ebd.firebaseapp.com',
       code: 'https://github.com/AntonOmelchuk/Pizzeria',
-      description: 'React, Redux, firebase, styled-components, custom Hooks'
+      description: 'React, firebase, styled-components, custom Hooks'
     },
     {
       id: 4,
